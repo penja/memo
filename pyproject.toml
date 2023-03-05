@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "polylang"
+version = "0.1.0"
+description = "Polylang is a language learning app that uses artificial intelligence to personalize the learning experience."
+authors = ["Andrii Penchuk (penja)"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.92.0"
+prisma = "^0.8.1"
+uvicorn = "^0.20.0"
+pyright = "^1.1.296"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+include = [
+    "main.py",
+]
+
+typeCheckingMode = "strict"

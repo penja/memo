@@ -13,3 +13,11 @@ With this in mind, I decided to create a language learning app that would incorp
 - Speech recognition to practice pronunciation
 - Personalized quizzes to test knowledge
 - Chatbot to practice conversational skills
+- Add and learn new worlds from favorite songs or videos
+
+# Project Structure
+
+1. All domain directories inside src folder
+   1. `src` - highest level of an app
+   2. `prisma` - everything related to database including migrations and prisma schema
+2. The package structure
